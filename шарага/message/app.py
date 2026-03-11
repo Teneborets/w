@@ -13,6 +13,23 @@ from database import (
     update_message,
     delete_message,
     toggle_pin_message,
+    # дополнительные функции, которые используются ниже
+    search_users,
+    is_username_taken,
+    get_all_users_admin,
+    get_user_chats,
+    update_last_activity,
+    update_user_avatar,
+    forward_message,
+    get_message_by_id,
+    get_friends,
+    add_friend,
+    remove_friend,
+    block_user,
+    unblock_user,
+    get_block_status,
+    is_user_blocked,
+    is_user_admin,
 )
 import os
 from werkzeug.utils import secure_filename
